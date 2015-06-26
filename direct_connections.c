@@ -310,7 +310,6 @@ int direct_connections()
         int cable = compute_cable(cities, cities_count);
         
         display_cable(cable);
-    
     }
     
     return kSuccess;
@@ -318,7 +317,7 @@ int direct_connections()
 
 int main(void)
 {
-    freopen("test0", "r", stdin);
+    freopen("test0.in", "r", stdin);
     direct_connections();
     
     return kSuccess;
